@@ -1,0 +1,57 @@
+.App {
+  font-family: cursive;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+.stockDetails {
+  display: inline-block;
+  background-color: #05445e;
+  width: 50%;
+  height: 100vh;
+}
+
+.building {
+  display: inline-block;
+  width: 40%;
+  margin: auto;
+  height: 80vh;
+  border-radius: 1rem;
+  background-image: url("/src/building.jpeg");
+  background-size: 100% 100%;
+}
+
+input {
+  width: 80%;
+  height: 5%;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1.5px solid black;
+  display: block;
+}
+
+label {
+  display: block;
+  top: 2rem;
+  position: relative;
+  color: white;
+}
+
+button {
+  height: 10%;
+  margin-top: 2rem;
+  background-color: white;
+  font-family: cursive;
+  padding: 1rem;
+}
+
+.result {
+  margin-top: 1rem;
+}
